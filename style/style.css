@@ -1,70 +1,97 @@
 /* shared style */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'lato', sans-serif;
-    
+
 }
-.text-primary{
-    color:#FD6E0A;
+
+.text-primary {
+    color: #FD6E0A;
 }
 
 /* nav related style */
-nav{
+nav {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 200px;
 }
-.nav-title{
-color: #000000;
-font-size: 45px;
-font-weight: 800;
 
-font-style: normal;
+.nav-title {
+    color: #000000;
+    font-size: 45px;
+    font-weight: 800;
+
+    font-style: normal;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
 }
+
 /* button-related style */
 
 
-.button-primary{
+.button-primary {
     border-radius: 5px;
     background: #FD6E0A;
     font-size: 20px;
     font-weight: 700;
-    color:white;
-    border:0px;
-    font-weight:700;
-    padding: 18px 35px;  
+    color: white;
+    border: 0px;
+    font-weight: 700;
+    padding: 18px 35px;
 }
+
 /* header and banner related style */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png') ;
+    background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-   
-.banner{
-    padding:30px 30px 0px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     padding-right: 0px;
 }
-.banner .profile-pic{
-    width:700px;
-    ;
-    
+
+.banner .profile-pic {
+    width: 700px;
+
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.banner-description{
+margin-bottom: 30px;
+color:#757575;
+font-weight: 400;
+font-size: 18px;
 }
