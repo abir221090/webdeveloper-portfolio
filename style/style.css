@@ -124,10 +124,18 @@ color:#757575;
 text-align: center;
 font-size: 18px;
 font-weight: 400;
-margin:130px ;
+margin-top: 30px;
 }
 
 main{
     max-width: 1140px;
     margin:0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
 }
