@@ -67,6 +67,7 @@ nav li a {
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    margin-bottom: 130px;
 }
 
 /* banner styles here */
@@ -111,14 +112,22 @@ font-size: 18px;
 
 /* main section  */
 .about{
-    padding: 209px 157px 220px 156px;
+    padding: 130px ;
     background-color: #FFF8F3;
     border-radius: 10px;
+    margin-bottom: 130px;
+
 }
 
 .section-description{
-    color: var #757575;
+color:#757575;
 text-align: center;
 font-size: 18px;
 font-weight: 400;
+margin:130px ;
+}
+
+main{
+    max-width: 1140px;
+    margin:0 auto;
 }
