@@ -131,6 +131,12 @@ main{
     max-width: 1140px;
     margin:0 auto;
 }
+
+main section{
+    margin-top: 130px;
+}
+
+/* about section style  */
 .about-info-container{
     display: flex;
     justify-content: space-around;
@@ -158,6 +164,8 @@ font-weight: 700;
 
 
 }
+
+
 /* skills related styles  */
 
 .skill-container{
@@ -175,4 +183,12 @@ font-weight: 700;
 color:#757575;
 font-size: 16px;
 font-weight: 400;
+}
+
+/* resume section style */
+
+.resume-column-title{
+color: #474747;
+font-size: 30px;
+font-weight: 700;
 }
