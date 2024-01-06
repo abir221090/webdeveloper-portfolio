@@ -11,6 +11,8 @@ body{
 nav{
 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .nav-title{
 color: #000000;
@@ -20,9 +22,9 @@ font-weight: 800;
 font-style: normal;
 }
 
-nav ul{
+nav > ul{
     display: flex;
-
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -30,4 +32,17 @@ nav li{
 }
 nav li a{
     text-decoration: none;
+}
+/* button-related style */
+
+
+.button-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    color:white;
+    border:0px;
+    font-weight:700;
+    padding: 18px 35px;  
 }
