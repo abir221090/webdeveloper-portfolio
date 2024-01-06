@@ -1,3 +1,33 @@
+/* shared style */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'lato', sans-serif;
+}
+.text-primary{
+    color:#FD6E0A;
+}
+
+/* nav related style */
 nav{
+
     display: flex;
+}
+.nav-title{
+color: #000000;
+font-size: 45px;
+font-weight: 800;
+
+font-style: normal;
+}
+
+nav ul{
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
 }
